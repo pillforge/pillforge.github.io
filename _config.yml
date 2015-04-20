@@ -11,3 +11,40 @@ github_username:  pillforge
 
 # Build settings
 markdown: kramdown
+
+# Exclude the following files/directories from being converted
+exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md']
+
+#########################
+# Plugin: jekyll-assets #
+#########################
+
+# Assets Pipeline
+assets:
+  sources:
+    - _assets
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+
+  # Minify and Compress Assets
+  compress:
+    css: sass
+    js: uglifier
+
+  # Disable asset gzip
+  gzip: false
+
+# Bibliography
+scholar:
+    style: ieee
+    locale: en
+
+    sort_by: date
+    order: descending
+
+    source: ./_bibliography
+    bibliography: references.bib
+    bibliography_template: {{reference}}
+

@@ -1,0 +1,17 @@
+# JekyllKB v0.1.2 - Navigation Bar Permalinks
+# Set the permalinks or external URLs for the navbar
+# For external URLs add external: true
+#
+
+- title: Home
+  url: /
+- title: Documentation
+  url: /documentation
+- title: Publications
+  url: /publications
+#- title: Try Now
+#  url: http://editor.webgme.org/?create=true&project=demo_jorftewof 
+#  external: true
+- title: WebGME
+  url: http://webgme.org/
+  external: true
