@@ -1,4 +1,14 @@
+$black:       #111      !default;
+$white:       #f9f9f9   !default;
+
+
+// Background color for `<body>`. Overrides Bootstrap
+$body-bg:     #f9f9f9;
+$font-size-base: 16px;
+$headings-font-weight: 300;
+
 @import "bootstrap";
+@import "bootstrap/theme";
 /*@import "font-awesome/font-awesome.scss";*/
 /*@import "syntax.scss";*/
 /*@import "jekyllkb.scss";*/
