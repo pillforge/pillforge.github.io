@@ -1,134 +1,12 @@
-// Fonts
-
-// Bootstrap font icons path using jekyll-assets
-// https://github.com/twbs/bootstrap-sass/blob/master/vendor/assets/stylesheets/bootstrap/_glyphicons.scss#L10
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot'));
-  src: url(asset_path('fonts/bootstrap/#{$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
-       url(asset_path('fonts/bootstrap/#{$icon-font-name}.woff')) format('woff'),
-       url(asset_path('fonts/bootstrap/#{$icon-font-name}.ttf')) format('truetype'),
-       url(asset_path('fonts/bootstrap/#{$icon-font-name}.svg##{$icon-font-svg-id}')) format('svg');
-}
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'), url(http://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'), url(http://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://fonts.gstatic.com/s/lato/v11/XNVd6tsqi9wmKNvnh5HNEBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 300;
-  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/YMOYVM-eg6Qs9YzV9OSqZfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://fonts.gstatic.com/s/lato/v11/AcvTq8Q0lyKKNxRlL28RnxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
 // COLOR SCHEME
 // -------------------------
 @import "bootstrap/mixins";
 
+$docs-bg: rgb(51,51,51);
+$docs-content-bg: #444;
+
 body {
-  background-image: url(asset_path('noise.png'));
+  /*background-image: url(asset_path('noise.png'));*/
   font-family: 'Lato';
 }
 
@@ -143,22 +21,15 @@ body {
 }
 
 .page-content {
-    padding-top: 30px;
-}
-
-.page-content > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.page-content .post  {
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    @include box-shadow(0 1px 3px rgba(0,0,0,.1));
     margin-top: 75px;
+}
+
+.page-content .docs-content{
+    border-radius: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    @include box-shadow(0 3px 10px rgba(0,0,0,.1));
 }
 
 
@@ -175,45 +46,26 @@ body {
   font-weight: 600;
 }
 
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
 .navbar-wrapper .navbar .container {
   width: auto;
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
+/* Jumbotron */
+.jumbotron {
+    color: #ddd;
+    background-color: rgb(51,51,51);
+    margin-bottom: 0px;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
+.jumbotron > .container {
+    margin-top: 52px;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
 
 // FOOTER
 // -------------------------
@@ -234,15 +86,6 @@ footer {
     margin-top: 20px;
   }
 
-  .page-content .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
 
   .navbar-wrapper .navbar {
     padding-right: 0;
@@ -254,16 +97,10 @@ footer {
     border-radius: 6px;
   }
 
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
   .featurette-heading {
     font-size: 50px;
   }
+
 }
 
 @media (min-width: 992px) {
