@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Design Environment for Capsule Robots
+<!-- # Design Environment for Capsule Robots -->
 
 ## Motivation
 Medical capsule robots are cm-size mechatronic devices designed to perform medical tasks by entering the human body from natural orifices. Wireless capsule embedding a miniature camera are available since 2000 for diagnosis of small intestine diseases. Due to the complexity of operating inside the human body, capsule robots to date have been designed in an ad hoc fashion, relying on profound expertise acquired through many years of experience
@@ -14,4 +14,3 @@ A systematic approach to design of pill-size medical devices is possible by outl
 
 
 Starting from this systematic approach, we are creating a web-based cyber-physical design framework that will offer different options for the basic submodules of the capsule robot that can be integrated to obtain a simulation of the expected performance. The main goal of the design environment is to lower the barriers to design space exploration, accelerating progress to prototyping, and increasing the probability of success for each prototype.
-
