@@ -14,6 +14,8 @@ Connectivity between the modules is achieved with a flexible circuit on which mo
 [Documentation for Flexible Connectivity](https://github.com/pillforge/hardware/tree/master/Flexible%20Connectivity)
 
 ### ![hardware](/img/mcu.resized.jpg) MCU Modules
+The CPU handles local computation, sensor management and other housekeeping tasks of the MCR. It must be small enough in size to be embedded into the capsule, and must operate in low-power modes to maximize the lifetime of the device, with built-in support for directly interfacing with various sensors, actuators and wireless transceivers.
+
 [Documentation for MCU Modules](https://github.com/pillforge/hardware/tree/master/MCU%20Modules)
 
 ### ![hardware](/img/wireless.resized.jpg) Wireless Modules
