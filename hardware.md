@@ -28,15 +28,15 @@ Sensing modules implemented thus far consist of commercially available small pac
 
 | Sensor Code  - | -  Description |
 | ---    | --- |
-| 3DA    | 3 axes accelerometer, digital 16 bit resolution |
-| 3DAG   | 3 axes accelerometer and gyroscope, digital 16 bit resolution |
-| 3DAGM  | 3 axes accelerometer, gyroscope and magnetometer, digital 16 bit resolution |
-| 3DAM   | 3 axes accelerometer  and magnetometer, digital 16 bit resolution |
-| 3DG    | 3 axes gyroscope, digital 16 bit resolution |
-| 3DM    | 3 axesmagnetometer, digital 16 bit resolution |
-| 2CHADC | 2 channels 16 bit ADC with analog front- end |
-| 8CHADC | 8 channels 16 bit ADC |
-| PT     | Pressure and Temperature, digital 12 bit resolution |
+| [3DA](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DA)    | 3 axes accelerometer, digital 16 bit resolution |
+| [3DAG](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAG)   | 3 axes accelerometer and gyroscope, digital 16 bit resolution |
+| [3DAGM](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAGM)  | 3 axes accelerometer, gyroscope and magnetometer, digital 16 bit resolution |
+| [3DAM](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAM)   | 3 axes accelerometer  and magnetometer, digital 16 bit resolution |
+| [3DG](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DG)    | 3 axes gyroscope, digital 16 bit resolution |
+| [3DM](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DM)    | 3 axesmagnetometer, digital 16 bit resolution |
+| [2CHADC](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/2CHADC) | 2 channels 16 bit ADC with analog front- end |
+| [8CHADC](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/8CHADC) | 8 channels 16 bit ADC |
+| [PT](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/PT)     | Pressure and Temperature, digital 12 bit resolution |
 
 [Documentation for Sensing Modules](https://github.com/pillforge/hardware/tree/master/Sensing%20modules)
 
