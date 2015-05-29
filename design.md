@@ -13,3 +13,12 @@ Just as the component-based approach on the hardware side is beneficial, we have
 We are using a graphical design environment to welcome all sorts of users. The graphical modeling environment is being developed on top of [WebGME](http://webgme.org).
 
 All the source code along with the instructions is served at the Github page: [Design Environment Source Code](https://github.com/pillforge/mcr_ide).
+
+# Demo
+
+* [Open the link](http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236&visualizer=ModelEditor&aspect=All&selection=)
+* Double click the book icon on BlinkAppC
+* Compile the App
+* Download the artifacts
+
+http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236
