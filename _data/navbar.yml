@@ -6,12 +6,12 @@
 - title: Home
   url: /
 - title: Documentation
-  url: /documentation
+  url: /hardware
 - title: Publications
   url: /publications
 #- title: Try Now
 #  url: http://editor.webgme.org/?create=true&project=demo_jorftewof 
 #  external: true
-- title: WebGME
-  url: http://webgme.org/
+- title: Demo
+  url: http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236
   external: true

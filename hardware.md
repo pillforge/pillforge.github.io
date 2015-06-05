@@ -26,7 +26,7 @@ Many MCR applications require a wireless communication channel for transmitting 
 ### ![hardware](/img/3da.resized.jpg) Sensing Modules
 Sensing modules implemented thus far consist of commercially available small package digital or analog sensors such as accelerometers, gyroscopes, pressure sensors and Hall-effect sensors. In general, any sensor with a digital interface (SPI or I2C) operating at a maximum voltage of 3.3 V can be physically connected to the microcontroller (MCU) and be accessed by the software. Similarly, analog sensors can be connected to analog to digital converter (ADC) channels of the MCU or to external ADC devices with digital interfaces to the MCU.
 
-| Sensor Code  - | -  Description |
+| Sensor Code | Description |
 | ---    | --- |
 | [3DA](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DA)    | 3 axes accelerometer, digital 16 bit resolution |
 | [3DAG](https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAG)   | 3 axes accelerometer and gyroscope, digital 16 bit resolution |
