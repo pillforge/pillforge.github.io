@@ -1,0 +1,8 @@
+---
+---
+<div class="text-justify bibliography">
+    {{reference}}
+    {% if entry.doi %}
+    <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">{{ entry.doi }}</a></span>
+    {% endif %}
+</div>

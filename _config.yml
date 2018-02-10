@@ -30,6 +30,7 @@ assets:
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
+    - _assets/bibliography
     - _assets/fonts
 
   # Minify and Compress Assets
@@ -42,13 +43,13 @@ assets:
 
 # Bibliography
 scholar:
-    #style: ieee
+    style: _assets/bibliography/ieee.csl
     locale: en
 
-    sort_by: date
+    sort_by: year, month
     order: descending
 
     source: ./_bibliography
     bibliography: references.bib
-    bibliography_template: {{reference}}
+    bibliography_template: bib
 
