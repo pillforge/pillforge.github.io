@@ -15,3 +15,5 @@
 - title: Demo
   url: http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236
   external: true
+- title: Simulation
+  url: /simulation
