@@ -14,7 +14,7 @@ highlighter: pygments
 encoding: UTF-8
 
 # Exclude the following files/directories from being converted
-exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md', 'Rakefile']
+exclude: ['.gitignore', 'CHANGELOG.md', 'Gemfile', 'Gemfile.lock', 'LICENSE.md', 'README.md', 'Rakefile', 'gemset.nix', 'default.nix']
 
 #########################
 # Plugin: jekyll-assets #
