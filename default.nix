@@ -8,5 +8,7 @@ let
 in stdenv.mkDerivation {
   name = "pillforge";
   buildInputs = [gems ruby];
-  LANG = "en_US.UTF-8";
+  shellHook = ''
+    export LANG=en_US.UTF-8
+  '';
 }
