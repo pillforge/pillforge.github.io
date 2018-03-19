@@ -12,4 +12,5 @@ within the Snap! visual programming language simulating the movement and battery
 
 ![simulation](/img/simulation.png)
 
-The arrow keys can be used to drive the two thrusters of the robot, but you can change the simulation and replace the "set thrusters" block with your own control algorithm. For help with the Snap! programming language, see the [user manual](https://snap.berkeley.edu/SnapManual.pdf).
+Press the green flag to start the simulation. The arrow keys can be used to drive the two thrusters of the robot, but you can change the simulation and replace the "set thrusters" block with your own control algorithm. For help with the Snap! programming language, see the 
+[user manual](https://snap.berkeley.edu/SnapManual.pdf).
