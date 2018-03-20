@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Design Environment</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://pillforge.github.io/design/">
+  <link rel="alternate" type="application/rss+xml" title="Pillforge Project website" href="http://pillforge.github.io/feed.xml" />
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/app-1f19a1d8b2ffe77466291cafc70e3b89142a9b1adfe2d54dfe8f33128d875a5a.css">
+</head>
+
+
+  <body>
+
+    <div class="navbar-wrapper">
+  <div class="container">
+    <nav class="navbar navbar-inverse  navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://pillforge.github.io/"></a>
+        </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav-links">
+              
+                  <li >
+                     <a href="/">Home</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/hardware">Documentation</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/publications">Publications</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236" target="_blank">Demo</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/simulation">Simulation</a>
+                    
+                  </li>
+              
+            </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+
+    <div class="jumbotron" style="background-image: url(/img/FLEX.jpg); background-position: center; background-size: cover">
+  <div class="container">
+    <h1>Design Environment for Medical Capsule Robots</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/" role="button">Motivation</a></p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/hardware" role="button">Hardware</a></p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/design" role="button">Design Environment</a> </p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/simulation" role="button">Simulation</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="homepage-content">
+        <div class="container">
+        <!-- # Design Environment for Capsule Robots -->
+
+<h2 id="design-environment">Design Environment</h2>
+
+<p>Just as the component-based approach on the hardware side is beneficial, we have developed our design environment utilizing <a href="http://tinyos.net/">TinyOS</a> which is a component based operating system for wireless sensor networks and embedded devices.</p>
+
+<p>We are using a graphical design environment to welcome all sorts of users. The graphical modeling environment is being developed on top of <a href="http://webgme.org">WebGME</a>.</p>
+
+<p>All the source code along with the instructions is served at the Github page: <a href="https://github.com/pillforge/mcr_ide">Design Environment Source Code</a>.</p>
+
+<p>There are two different abstractions for implementing applications. A developer can either create his application with pure TinyOS representation or use templates.</p>
+
+<h2 id="demo">Demo</h2>
+
+<h3 id="for-drug-delivery-template-app">For drug.delivery template app.</h3>
+
+<ul>
+<li>Go to <a href="http://pillforge.webgme.org">pillforge.webgme.org</a></li>
+<li>Create a new project by providing a project name.</li>
+<li>Choose an <em>existing seed</em> called <strong>DrugDelivery</strong> to create the project.</li>
+<li>Go to apps folder by double clicking either on the object or through the object browser on the right side bar</li>
+<li>Open one of the two applications called <strong>DrugDeliveryMCR</strong> or <strong>DDBase</strong></li>
+<li>Modify the input values if you wish</li>
+<li>While within the app object, you&#39;ll see a clickable play button on top left. To compile the application:
+
+<ul>
+<li>Click on the play button</li>
+<li>A menu pops up, click on <strong>Run DrugDelivery</strong> option</li>
+<li>Click <strong>Save &amp; Run</strong> button</li>
+<li>A while later a value will appear on the play button on top left, click on it</li>
+<li>Click <strong>Show results...</strong></li>
+<li>Click on <strong>Details</strong> in the list object</li>
+<li>If the compilation is successful, you can download the files under the <strong>Generated Artifacts</strong> title</li>
+</ul></li>
+</ul>
+
+<p>Source: <a href="https://github.com/pillforge/drug.delivery">https://github.com/pillforge/drug.delivery</a></p>
+
+<h3 id="for-pure-tinyos-app-senseandsend">For pure TinyOS app SenseAndSend</h3>
+
+<ul>
+<li><a href="http://pillforge.webgme.org/?project=guest%2BSenseAndSend&branch=master&node=%2F1138634074%2F1973051505&visualizer=ModelEditor&tab=0&selection=%2F1138634074%2F1973051505%2F1806907828">Open the link</a></li>
+<li>Double click the book icon on SenseAndSendAppC</li>
+<li>Compile the App</li>
+<li>Download the App</li>
+</ul>
+
+<p><a href="http://pillforge.webgme.org/?project=guest%2BSenseAndSend&branch=master&node=%2F1138634074%2F1973051505">http://pillforge.webgme.org/?project=guest%2BSenseAndSend&amp;branch=master&amp;node=%2F1138634074%2F1973051505</a></p>
+
+        </div>
+    </div>
+
+    <footer>
+  <!--<div class="page-header"></div>[> inserts the line separator <]-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <p><span>&copy; 2018 - 
+          <a href="http://my.vanderbilt.edu/stormlab/" target="_blank">STORM Lab</a> / 
+          <a href="http://isis.vanderbilt.edu/" target="_blank">Institute for Software Integrated Systems</a> / 
+          <a href="http://www.vanderbilt.edu" target="_blank">Vanderbilt University</a> / 
+          <a href="http://www.vuse.vanderbilt.edu" target="_blank">School of Engineering</a></span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/assets/javascripts/app-2e5e799ed89c49a46a43e173cce270d5488863d3b0c7c65d1a737cd6c7d121b1.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62596913-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+  </body>
+
+</html>

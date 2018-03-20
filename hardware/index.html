@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Hardware</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://pillforge.github.io/hardware/">
+  <link rel="alternate" type="application/rss+xml" title="Pillforge Project website" href="http://pillforge.github.io/feed.xml" />
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/app-1f19a1d8b2ffe77466291cafc70e3b89142a9b1adfe2d54dfe8f33128d875a5a.css">
+</head>
+
+
+  <body>
+
+    <div class="navbar-wrapper">
+  <div class="container">
+    <nav class="navbar navbar-inverse  navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://pillforge.github.io/"></a>
+        </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav-links">
+              
+                  <li >
+                     <a href="/">Home</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/hardware">Documentation</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/publications">Publications</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="http://pillforge.webgme.org/?project=Demo&branch=master&node=%2F262487824%2F29143236" target="_blank">Demo</a>
+                    
+                  </li>
+              
+                  <li >
+                     <a href="/simulation">Simulation</a>
+                    
+                  </li>
+              
+            </ul>
+          </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+
+    <div class="jumbotron" style="background-image: url(/img/FLEX.jpg); background-position: center; background-size: cover">
+  <div class="container">
+    <h1>Design Environment for Medical Capsule Robots</h1>
+    <div class="row">
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/" role="button">Motivation</a></p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/hardware" role="button">Hardware</a></p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/design" role="button">Design Environment</a> </p>
+      </div>
+      <div class="col-md-3">
+        <p><a class="btn btn-lg btn-primary" href="/simulation" role="button">Simulation</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="homepage-content">
+        <div class="container">
+        <!-- # Design Environment for Capsule Robots -->
+
+<h2 id="hardware">Hardware</h2>
+
+<h3 id="flexible-connectivity"><img src="/img/flexible.resized.jpg" alt="hardware"> Flexible Connectivity</h3>
+
+<p>Connectivity between the modules is achieved with a flexible circuit on which modules are mounted before being folded to form the body of the MCR. The flexible circuit has a width of 10.4 mm and a length of 72.5 mm and can be folded down to a 14 mm length when all slots are populated. The backbone can host up to five different modules using 30-pin miniature connectors.</p>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/Flexible%20Connectivity">Documentation for Flexible Connectivity</a></p>
+
+<h3 id="mcu-modules"><img src="/img/mcu.resized.jpg" alt="hardware"> MCU Modules</h3>
+
+<p>The CPU handles local computation, sensor management and other housekeeping tasks of the MCR. It must be small enough in size to be embedded into the capsule, and must operate in low-power modes to maximize the lifetime of the device, with built-in support for directly interfacing with various sensors, actuators and wireless transceivers.</p>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/MCU%20Modules">Documentation for MCU Modules</a></p>
+
+<h3 id="wireless-modules"><img src="/img/wireless.resized.jpg" alt="hardware"> Wireless Modules</h3>
+
+<p>Many MCR applications require a wireless communication channel for transmitting information from inside the human body. This communication must often be performed with relatively high data rates for real-time applications with transmission power bound to medically safe limits. Sub 1 GHz carriers with lower energy absorption rates in human tissues are the most suitable for medical devices.</p>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/Wireless%20Modules">Documentation for Wireless Modules</a></p>
+
+<h3 id="sensing-modules"><img src="/img/3da.resized.jpg" alt="hardware"> Sensing Modules</h3>
+
+<p>Sensing modules implemented thus far consist of commercially available small package digital or analog sensors such as accelerometers, gyroscopes, pressure sensors and Hall-effect sensors. In general, any sensor with a digital interface (SPI or I2C) operating at a maximum voltage of 3.3 V can be physically connected to the microcontroller (MCU) and be accessed by the software. Similarly, analog sensors can be connected to analog to digital converter (ADC) channels of the MCU or to external ADC devices with digital interfaces to the MCU.</p>
+
+<table><thead>
+<tr>
+<th>Sensor Code</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DA">3DA</a></td>
+<td>3 axes accelerometer, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAG">3DAG</a></td>
+<td>3 axes accelerometer and gyroscope, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAGM">3DAGM</a></td>
+<td>3 axes accelerometer, gyroscope and magnetometer, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DAM">3DAM</a></td>
+<td>3 axes accelerometer  and magnetometer, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DG">3DG</a></td>
+<td>3 axes gyroscope, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/3DM">3DM</a></td>
+<td>3 axesmagnetometer, digital 16 bit resolution</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/2CHADC">2CHADC</a></td>
+<td>2 channels 16 bit ADC with analog front- end</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/8CHADC">8CHADC</a></td>
+<td>8 channels 16 bit ADC</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules/PT">PT</a></td>
+<td>Pressure and Temperature, digital 12 bit resolution</td>
+</tr>
+</tbody></table>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/Sensing%20modules">Documentation for Sensing Modules</a></p>
+
+<h3 id="actuating-modules"><img src="/img/actuating.resized.jpg" alt="hardware"> Actuating Modules</h3>
+
+<p>Actuation Modules provide multiple digital interfaces (e.g., Pulse Width Modulation (PWM), General Purpose I/O (GPIO)) for utilizing both brushed (BDCC) or brushless (BSLDCC) DC motor controllers. These modules have been designed to enable internal active locomotion or to actuate internal mechanisms of capsules endoscope.</p>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/Actuating%20Modules">Documentation for Actuating Modules</a></p>
+
+<h3 id="power-board"><img src="/img/power.resized.jpg" alt="hardware"> Power Board</h3>
+
+<p>The power management module provides regulated power from the battery to the rest of the hardware modules. This module integrates an Low Drop-Out (LDO) to supply a single fixed 3.3 V power rail. It can also charge and monitor the state of the battery.</p>
+
+<p><a href="https://github.com/pillforge/hardware/tree/master/Power%20Board">Documentation for Power Board</a></p>
+
+<h3 id="debugger-board"><img src="/img/debugger_board.resized.png" alt="hardware"> Debugger Board</h3>
+
+<h4 id="reference">Reference</h4>
+
+<p><a href="https://github.com/pillforge/hardware">Main Github page for: Schematic and PCB files for development hardware.</a></p>
+
+        </div>
+    </div>
+
+    <footer>
+  <!--<div class="page-header"></div>[> inserts the line separator <]-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <p><span>&copy; 2018 - 
+          <a href="http://my.vanderbilt.edu/stormlab/" target="_blank">STORM Lab</a> / 
+          <a href="http://isis.vanderbilt.edu/" target="_blank">Institute for Software Integrated Systems</a> / 
+          <a href="http://www.vanderbilt.edu" target="_blank">Vanderbilt University</a> / 
+          <a href="http://www.vuse.vanderbilt.edu" target="_blank">School of Engineering</a></span></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="/assets/javascripts/app-2e5e799ed89c49a46a43e173cce270d5488863d3b0c7c65d1a737cd6c7d121b1.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62596913-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+  </body>
+
+</html>
